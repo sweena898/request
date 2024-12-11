@@ -9,6 +9,6 @@ int first=myobj.nextInt();
 System.out.print("Enter any number:");
 int second=myobj.nextInt();
 int add=first+second;
-System.out.println("The sum is:"+add);
+System.out.println("The sum isssss:"+add);
 }
 }
