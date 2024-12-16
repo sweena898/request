@@ -1,14 +1,23 @@
-import java.util.Scanner;
-class Add
+class student
 {
-public static void main(String args[])
+string name;
+int age;
+student(string name, int age)
 {
-Scanner myobj=new Scanner(System.in);
-System.out.print("Enter any number:");
-int first=myobj.nextInt();
-System.out.print("Enter any number:");
-int second=myobj.nextInt();
-int add=first+second;
-System.out.println("The sum is:"+add);
+this.name = name;
+this.age = age;
+System.out.println("Enter the number of rows\n");
+int rows = scan.nextInt();
+System.out.println("Floyd's Triangle Generated\n");
+int count = 1;
+for ( int i = 1 ; i <= rows ; i++ )
+{
+for ( int j = 1 ; j <= i ; j++ )
+{
+System.out.print(count+" ");
+count++;
+}
+System.out.println();
+}
 }
 }
